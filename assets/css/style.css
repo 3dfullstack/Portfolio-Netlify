@@ -1,6 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 body {
+  max-width: 100%;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -574,9 +575,16 @@ p {
     .header-content .header-shape.shape-three {
       top: 0 !important;
       left: 40% !important; }
+    .header-content .header-shape.shape-three-x {
+      top: 0 !important;
+      bottom: 10% !important;
+      left: 70% !important; }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-three img {
           width: 100px; } }
+      @media (max-width: 767px) {
+      .header-content .header-shape.shape-three-x img {
+        width: 100px; } }
     .header-content .header-shape.shape-fore {
       top: 28px !important;
       right: 7.6% !important;
